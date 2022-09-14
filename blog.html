@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="nav">
+        <a href="index.html"> Home </a>
+        <a href="blog.html"> Blog </a>
+    </header>
+    <main class="box-container">
+        <h1 class="title">My Blog</h1>
+        <div class="blog-item">
+            <a href=""> Question 1: Difference between Local Storage vs Session Strage?</a><br>
+            <a href=""> Answer:</a> SessionStorage is similar to localStorage ; the difference is that while data in
+            localStorage
+            doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded
+            in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+        </div>
+        <div class="blog-item">
+            <a href=""> Question 2: Difference between Global Scope vs Block Scope?</a><br>
+            <a href=""> Answer:</a> A global variable has global scope. A global variable is accessible from anywhere in
+            the code. Local Scope — Local scope contains things defined inside code blocks. A local variable has local
+            scope.
+        </div>
+        <div class="blog-item">
+            <a href=""> Question 3: How does JavaScript Event Loop work?</a><br>
+            <a href=""> Answer:</a> The Event Loop has one simple job — to monitor the Call Stack and the Callback
+            Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it
+            to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
+        </div>
+        <div class="blog-item">
+            <a href=""> Question 4: In how many ways we can get undefined in JS?</a><br>
+            <a href=""> Answer:</a> We will get undefined value when we call a non-existent property or method of an
+            object. In example, if a function does not return any result but still we try to assign its
+            resulted value to a variable. So in this case, result will be undefined.
+        </div>
+    </main>
+</body>
+
+</html>
