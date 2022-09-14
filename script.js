@@ -117,11 +117,13 @@ const start = () => {
       display.classList.remove("inactive");
 
       clearInterval(startCountdown);
+      countdownOverlay.style.display = "none";
       startTime = new Date().getTime();
     }
     count--;
   }, 1000);
 };
+// countdownOverlay.style.display = "none";
 
 // START Countdown
 startBtn.addEventListener("click", start);
