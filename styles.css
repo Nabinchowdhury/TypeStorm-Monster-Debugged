@@ -17,13 +17,13 @@ body {
 }
 
 #question {
-  padding: 0 10px;
-  height: 100px;
+  padding: 2rem;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 1.5em;
   border-radius: 15px;
   background: rgb(255, 255, 255);
   background: linear-gradient(92.49deg,
@@ -34,13 +34,14 @@ body {
 }
 
 #display {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding: 2rem;
+  /* padding-right: 5rem; */
   color: white;
-  font-size: 32px;
+  font-size: 2em;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
