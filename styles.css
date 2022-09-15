@@ -67,6 +67,7 @@ body {
   position: fixed;
   top: 10%;
   left: 10%;
+
   transform: translate(80%, 50%);
   height: 250px;
   width: 400px;
@@ -221,4 +222,16 @@ button {
     width: 100%;
     flex-direction: column;
   }
+
+  #result {
+
+    max-width: 90%;
+    transform: translate(-5%, 10%);
+    padding: 1rem
+  }
+
+  #result button {
+    width: 90%;
+  }
+
 }
